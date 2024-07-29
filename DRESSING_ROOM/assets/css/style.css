@@ -135,8 +135,6 @@
   z-index: -1;
 }
 
-/* END MODEL */
-
 hr {
   height: 10px;
   border: 0;
@@ -165,61 +163,50 @@ hr {
 }
 
 
-/* style bài làm */
+/* css dev  */
+/* product */
+.background img{
+  width: 900px;
+  height: 1500px;
+}
+.bikinitop img{
+  position: absolute;
+  width: 100%;
+}
+.bikinibottom img{
+  position: absolute;
+  width: 100%;
+}
+
+/* layout  */
 .nav li a {
+  margin: 2px;
+  color: black;
+  font-weight: 600;
+  border: 2px solid rgba(0, 0, 255, 0.178);
+  text-decoration: none;
   display: inline-block;
-  width: 176.8px;
+  width: 115px;
   text-align: center;
-  border: 1px solid #2B6699;
   padding: 7px 0;
-  color: #2B6699;
 }
 
 .nav .active a {
-  background-color: #2B6699;
+  background-color: #2b6699e1;
   color: white;
-}
-
-.well .row img {
-  width: 200px;
 }
 
 .well .row .col-3 {
   text-align: center;
   margin: 10px 0;
   padding: 20px 10px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .well .row button {
-  width: 200px;
+  padding: 0 30px;
+  border: 2px solid rgba(137, 43, 226, 0.472);
+  border-radius: 10px;
 }
 
-.well .row .col-3 p {
-  font-size: 20px;
-  font-weight: 600;
-  margin: 10px;
-}
-/* 
-model
-hairstyle
-necklace
-bikinitop
-bikinibottom
-handbag
-feet
-background */
-
-.bikinitop img{
-  position: absolute;
-  width: 100%;
-}
-
-.bikinibottom img{
-  position: absolute;
-  width: 100%;
-}
-
-.background img{
-  width: 900px;
-  height: 1500px;
-}
